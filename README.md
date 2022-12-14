@@ -7,8 +7,9 @@
 
 - [ ] WiFiManager
 - [ ] OTA (Over-the-Air)
-- [ ] Video Streaming
+- [x] Video Streaming
 - [ ] Remote Control
 - [ ] Self Driving
 - [ ] Object Recognition
 - [ ] Traffic Sign Recognition
+
