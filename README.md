@@ -5,7 +5,7 @@
 
 ### Features
 
-- [ ] WiFiManager
+- [x] WiFiManager
 - [ ] OTA (Over-the-Air)
 - [x] Video Streaming
 - [ ] Remote Control

@@ -1,5 +1,6 @@
 #include "esp_camera.h"
 #include <WiFi.h>
+#include <WiFiManager.h>
 
 #define CAMERA_MODEL_AI_THINKER // Has PSRAM
 
@@ -14,6 +15,16 @@ void setup() {
   Serial.begin(115200);
   Serial.setDebugOutput(true);
   Serial.println();
+
+  WiFiManager wm;
+
+  bool res;
+  res = wm.autoConnect("Safety-Car");
+  if(!res) {
+    Serial.println("Failed to connect");
+  } else {
+    Serial.println("connected... yeey :)");
+  }
 
   camera_config_t config;
   config.ledc_channel = LEDC_CHANNEL_0;
