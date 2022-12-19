@@ -8,8 +8,16 @@
 - [x] WiFiManager
 - [ ] OTA (Over-the-Air)
 - [x] Video Streaming
-- [ ] Remote Control
+- [ ] Backend for Remote Control
 - [ ] Self Driving
 - [ ] Object Recognition
 - [ ] Traffic Sign Recognition
+
+
+# Mobile App
+
+### Features
+
+- [ ] AR
+- [ ] Remote Control interface
 
